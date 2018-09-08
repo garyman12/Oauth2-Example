@@ -1,10 +1,10 @@
 const express = require('express')
 var rp = require('request-promise');
-const app = express()
+const app = express();
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(3000, () => console.log('Example app listening on port 3000!'));
 /* TODO:
 1. SETUP SEQUELIZE DATABASE
 2. SETUP LOGIN PAGE
